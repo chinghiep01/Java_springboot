@@ -9,7 +9,7 @@ Tải SpringBoot , sử dụng code editor là visual studio code  và chạy de
 Đầu tiên , tải AdoptOpen JDK version 11 về máy. Sau đó , add path và tạo Java_Home ở phần system variable. Sau đó , kiểm tra kết quả tải bằng cách vô command prompt và nhập java -version và javac -version. Tiếp theo , tải apache marven về máy. Sau đó , add path và tạo NVM_Home ở phần system variable. Sau đó , kiểm tra kết quả tải bằng cách vô command prompt và nhập nvm -version. Cuối cùng , tiếp tục sử dụng command prompt và nhập nvm install để sư dụng nvm trên command prompt .
 
 
-![This is an image](Screenshot 2021-12-05 201757.jpg)
+![My image](document/Screenshot 2021-12-05 201757.jpg)
 
 
 **Bước 2:**
