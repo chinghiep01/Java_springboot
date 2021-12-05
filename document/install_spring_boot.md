@@ -2,7 +2,7 @@
 SpringBoot  là một phần trong Spring framework sử dụng ngôn ngữ JAVA. Nó giúp đơn giản hóa quá trình lập trình một ứng dụng (website ) với Spring , chỉ cần tập trung phát triển tính năng của ứng dụng.   
 
 #### Mục đích   
-Tải SpringBoot , sử dụng code editor là visual studio code  và chạy demo code trên command prompt để cho ra kết quả “HELLO” qua link   **__ http://localhost:8080/hello __**
+Tải SpringBoot , sử dụng code editor là visual studio code  và chạy demo code trên command prompt để cho ra kết quả “HELLO” qua link   **_http://localhost:8080/hello_**
 
 #### Các  Bước:
 **Bước 1 :**
@@ -25,4 +25,4 @@ Sau khi tải , giải nén file rồi lưu vào file trên máy tính
 
 
 **Bước 4:**
-Tìm file DemoApplication.java ở trong *** src/ main/com/example/demo ***. Sau đó, copy và Paste code này vào : 
+Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau đó, copy và Paste code này vào : 
