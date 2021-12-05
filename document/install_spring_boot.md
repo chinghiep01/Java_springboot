@@ -30,7 +30,10 @@ Sau khi tải , giải nén file rồi lưu vào file trên máy tính
 
 **Bước 4:**
 Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau đó, copy và Paste code này vào : 
+
+
 ''''
+
 '''
 
 package com.example.demo;
@@ -57,7 +60,9 @@ public class DemoApplication {
 
 
 '''
+
 ''''
+
 
 **Bước 5 :**
 Mở terminal lên và cd vô folder đã lưu file demo. Sau đó , nhập mvnw spring-boot:run. Nếu hiện như dưới đây là đúng: 
