@@ -8,7 +8,7 @@ Tải SpringBoot , sử dụng code editor là visual studio code  và chạy de
 **Bước 1 :**
 Đầu tiên , tải AdoptOpen JDK version 11 về máy. Sau đó , add path và tạo Java_Home ở phần system variable. Sau đó , kiểm tra kết quả tải bằng cách vô command prompt và nhập java -version và javac -version. Tiếp theo , tải apache marven về máy. Sau đó , add path và tạo NVM_Home ở phần system variable. Sau đó , kiểm tra kết quả tải bằng cách vô command prompt và nhập nvm -version. Cuối cùng , tiếp tục sử dụng command prompt và nhập nvm install để sư dụng nvm trên command prompt .
 
-![This is my image](image_1.jpg)
+![This is my image](image/image_1.jpg)
 
 
 **Bước 2:**
@@ -23,6 +23,7 @@ Tải Visual Studio package . Nếu có visual code rồi thì tải recommend e
 **Bước 3:**
 Tải Spring Boot theo phiên bản sau : 
 
+![This is my image](image/image_2.jpg)
 
 Sau khi tải , giải nén file rồi lưu vào file trên máy tính
 
@@ -30,6 +31,29 @@ Sau khi tải , giải nén file rồi lưu vào file trên máy tính
 **Bước 4:**
 Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau đó, copy và Paste code này vào : 
 
+'''
+package com.example.demo;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+             
+@SpringBootApplication
+@RestController
+public class DemoApplication {
+
+        public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+        }
+                  
+        @GetMapping("/hello")
+        public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+        return String.format("Hello %s!", name);
+        }
+                
+}
+'''
 
 
 **Bước 5 :**
