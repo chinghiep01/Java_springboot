@@ -32,18 +32,18 @@ Sau khi tải , giải nén file rồi lưu vào file trên máy tính
 Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau đó, copy và Paste code này vào : 
 
 
-'''
 
-package com.example.demo;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+
+ package com.example.demo;
+ import org.springframework.boot.SpringApplication;
+ import org.springframework.boot.autoconfigure.SpringBootApplication;
+ import org.springframework.web.bind.annotation.GetMapping;
+ import org.springframework.web.bind.annotation.RequestParam;
+ import org.springframework.web.bind.annotation.RestController;
              
-@SpringBootApplication
-@RestController
-public class DemoApplication {
+ @SpringBootApplication
+ @RestController
+ public class DemoApplication {
 
         public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
@@ -54,9 +54,9 @@ public class DemoApplication {
         return String.format("Hello %s!", name);
         }
                 
-}
+ }
 
-'''
+ 
 
 
 
