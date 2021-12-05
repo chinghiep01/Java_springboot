@@ -7,9 +7,18 @@ Tải SpringBoot , sử dụng code editor là visual studio code  và chạy de
 #### Các  Bước:
 **Bước 1 :**
 Đầu tiên , tải AdoptOpen JDK version 11 về máy. Sau đó , add path và tạo Java_Home ở phần system variable. Sau đó , kiểm tra kết quả tải bằng cách vô command prompt và nhập java -version và javac -version. Tiếp theo , tải apache marven về máy. Sau đó , add path và tạo NVM_Home ở phần system variable. Sau đó , kiểm tra kết quả tải bằng cách vô command prompt và nhập nvm -version. Cuối cùng , tiếp tục sử dụng command prompt và nhập nvm install để sư dụng nvm trên command prompt .
+
 <br>
+
+
 <img src= "image/Screenshot 2021-12-05 201757.jpg">
-<br>
+
+
+
+<p><b>SCALED</b></p>
+
+
+
 **Bước 2:**
 Tải Visual Studio package . Nếu có visual code rồi thì tải recommend extensive pack for java. Bao gồm : 
 1/ Language Support For Java by Red Hat 
