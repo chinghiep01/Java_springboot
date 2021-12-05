@@ -31,7 +31,7 @@ Sau khi tải , giải nén file rồi lưu vào file trên máy tính
 **Bước 4:**
 Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau đó, copy và Paste code này vào : 
 
-
+''''
 '''
  package com.example.demo;
  import org.springframework.boot.SpringApplication;
@@ -40,7 +40,6 @@ Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau �
  import org.springframework.web.bind.annotation.RequestParam;
  import org.springframework.web.bind.annotation.RestController;
 
-'''
  @SpringBootApplication
  @RestController
  public class DemoApplication {
@@ -56,6 +55,7 @@ Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau �
  }
 
 '''
+''''
 
 
 
