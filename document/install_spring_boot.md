@@ -35,8 +35,8 @@ Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau �
 **Bước 5 :**
 Mở terminal lên và cd vô folder đã lưu file demo. Sau đó , nhập mvnw spring-boot:run. Nếu hiện như dưới đây là đúng: 
 
-![This is my image](image/image_4.jpg)
+![This is my image](image_4.jpg)
 
-![This is my image](image/image_3.jpg)
+![This is my image](image_3.jpg)
 
 Cuối cùng , mở website lên và nhập ***http://localhost:8080/hello***  . Check nếu website ra giống như vậy là đúng 
