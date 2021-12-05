@@ -33,7 +33,6 @@ Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau �
 
 
 ''''
-
 '''
 
 package com.example.demo;
@@ -60,7 +59,6 @@ public class DemoApplication {
 
 
 '''
-
 ''''
 
 
