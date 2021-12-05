@@ -32,7 +32,7 @@ Sau khi tải , giải nén file rồi lưu vào file trên máy tính
 Tìm file DemoApplication.java ở trong ***src/ main/com/example/demo***. Sau đó, copy và Paste code này vào : 
 
 
-'''
+'''java
 package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -53,7 +53,6 @@ public class DemoApplication {
     }
                 
 }
-
 '''
 
 
