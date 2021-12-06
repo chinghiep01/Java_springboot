@@ -1,4 +1,4 @@
-#### Tổng quan  
+#### Tổng quan:
 SpringBoot  là một phần trong Spring framework sử dụng ngôn ngữ JAVA. Nó giúp đơn giản hóa quá trình lập trình một ứng dụng (website) với Spring , chỉ cần tập trung phát triển tính năng của ứng dụng.   
 
 #### Mục đích   
@@ -12,7 +12,7 @@ Tải SpringBoot , sử dụng code editor là visual studio code  và chạy de
 
 
 **Bước 2:**
-Tải Visual Studio package . Nếu có visual code rồi thì tải recommend extensive pack for java. Bao gồm : 
+Tải Visual Studio package. Nếu có visual code rồi thì tải recommend extensive pack for java. Bao gồm : 
 1/ Language Support For Java by Red Hat 
 2/ Debugger for Java 
 3/ Test Runner for Java 
