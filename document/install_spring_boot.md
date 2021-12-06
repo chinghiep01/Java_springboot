@@ -1,4 +1,4 @@
-#### Tổng quan:
+#### Tổng quan
 SpringBoot  là một phần trong Spring framework sử dụng ngôn ngữ JAVA. Nó giúp đơn giản hóa quá trình lập trình một ứng dụng (website) với Spring , chỉ cần tập trung phát triển tính năng của ứng dụng.   
 
 #### Mục đích   
