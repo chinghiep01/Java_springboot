@@ -68,6 +68,3 @@ Mở terminal lên và cd vô folder đã lưu file demo. Sau đó , nhập mvnw
 Cuối cùng , mở website lên và nhập ***http://localhost:8080/hello***  . Check nếu website ra giống như vậy là đúng 
 
 
-The End 
-and Hello 
-
