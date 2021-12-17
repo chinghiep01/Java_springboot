@@ -18,3 +18,27 @@ Important feature :
 + No restriction in sending the length of data
 + POST cannot be bookmark 
 + POST request never cached
+
+
+|                            |                   GET                 |             POST              |
+| ---------------------------| --------------------------------------|-------------------------------|
+|    Backbutton/Reload       |            Harmeless                  |Data will be re-submit.        |
+|                            |                                       |Browser will aler the user     |
+|                            |                                       |that the data are about        |
+|                            |                                       |to be resubmitted.             |  
+| ---------------------------|---------------------------------------|-------------------------------|
+|    Bookmarked              |      Can be bookmarked                |Cannot be bookemarked       |
+|                            |                                       |    |
+|                            |                                       |       |
+|                            |                                       |           |  
+| ---------------------------|---------------------------------------|-------------------------------|
+   Backbutton/Reload       |            Harmeless                  |Data will be re-submit.        |
+|                            |                                       |Browser will aler the user     |
+|                            |                                       |that the data are about        |
+|                            |                                       |to be resubmitted.             |  
+| ---------------------------|---------------------------------------|-------------------------------|
+   Backbutton/Reload       |            Harmeless                  |Data will be re-submit.        |
+|                            |                                       |Browser will aler the user     |
+|                            |                                       |that the data are about        |
+|                            |                                       |to be resubmitted.             |  
+| ---------------------------|---------------------------------------|-------------------------------|
