@@ -26,17 +26,17 @@ Important feature :
 |                            |                                       | will alert the user that the data    |
 |                            |                                       | are about to be resubmitted          |
 |                            |                                       |                                      |  
-|----------------------------|---------------------------------------|--------------------------------------|
+|                            |                                       |                                      |
 |    Bookmarked              |      Can be bookmarked                |Cannot be bookemarked       |
 |                            |                                       |                            |
 |                            |                                       |                            |
 |                            |                                       |                               |  
-|----------------------------|---------------------------------------|-------------------------------|
+|                            |                                       |                                |
 |    Cached                  |            Can be cached              |  Not cached       |
 |                            |                                       |                   |
 |                            |                                       |                   |
 |                            |                                       |                               |  
-|----------------------------|---------------------------------------|-------------------------------|
+|                            |                                       |                               |
 |   Encoding type            |   application/x-www-form-urlencoded   | 	application/x-www-form-urlencoded or |
 |                            |                                       |  multipart/form-data.            |
 |                            |                                       |  Use multipart encoding for binary data   |
