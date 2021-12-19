@@ -22,23 +22,28 @@ Important feature :
 
 |                            |                   GET                 |             POST              |
 | ---------------------------| --------------------------------------|-------------------------------|
-|    Backbutton/Reload       |            Harmeless                  |Data will be re-submit.        |
-|                            |                                       |Browser will aler the user     |
-|                            |                                       |that the data are about        |
-|                            |                                       |to be resubmitted.             |  
+|    Backbutton/Reload       |            Harmeless                  | Data will be re-submit.Browser |
+|                            |                                       | will aler the user that the data   |
+|                            |                                       | are about to be resubmitted      |
+|                            |                                       |            |  
 | ---------------------------|---------------------------------------|-------------------------------|
 |    Bookmarked              |      Can be bookmarked                |Cannot be bookemarked       |
 |                            |                                       |    |
 |                            |                                       |       |
 |                            |                                       |           |  
 | ---------------------------|---------------------------------------|-------------------------------|
-   Backbutton/Reload       |            Harmeless                  |Data will be re-submit.        |
-|                            |                                       |Browser will aler the user     |
-|                            |                                       |that the data are about        |
-|                            |                                       |to be resubmitted.             |  
+|    Cached                  |            Can be cached              |  Not cached       |
+|                            |                                       |                   |
+|                            |                                       |                   |
+|                            |                                       |                               |  
 | ---------------------------|---------------------------------------|-------------------------------|
-   Backbutton/Reload       |            Harmeless                  |Data will be re-submit.        |
-|                            |                                       |Browser will aler the user     |
-|                            |                                       |that the data are about        |
-|                            |                                       |to be resubmitted.             |  
+|   Encoding type            |   application/x-www-form-urlencoded   | 	application/x-www-form-urlencoded or |
+|                            |                                       |  multipart/form-data.            |
+|                            |                                       |  Use multipart encoding for binary data   |
+|                            |                                       |           |  
+| ---------------------------|---------------------------------------|-------------------------------|
+|   History                  | Parameters remain in browser history  |  Parameters are not saved in browser
+|                            |                                       |history            |
+|                            |                                       |     |
+|                            |                                       |           |  
 | ---------------------------|---------------------------------------|-------------------------------|
