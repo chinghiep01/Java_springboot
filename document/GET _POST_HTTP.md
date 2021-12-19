@@ -23,10 +23,10 @@ Important feature :
 |                            |                   GET                 |             POST              |
 | ---------------------------| --------------------------------------|-------------------------------|
 |    Backbutton/Reload       |            Harmeless                  | Data will be re-submit.Browser |
-|                            |                                       | will aler the user that the data   |
+|                            |                                       | will alert the user that the data   |
 |                            |                                       | are about to be resubmitted      |
-|                            |                                       |            |  
-| ---------------------------|---------------------------------------|-------------------------------|
+|                            |                                       |                               |  
+|---------------------------|---------------------------------------|-------------------------------|
 |    Bookmarked              |      Can be bookmarked                |Cannot be bookemarked       |
 |                            |                                       |    |
 |                            |                                       |       |
