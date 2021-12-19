@@ -1,7 +1,7 @@
 # GET method and Post method of  HTTP 
 ## GET Method  
 ### What is GET 
- Get method is used to append data to the URL in name or value pair. Get method provides a limited length of URL. Get method let user view resources, without changing the content. Generally, Get method is better for the data which does not require any security, word doc, or image.
+ Get method is used to append data to the URL in name or value pair. Get method provides a limited length of URL. Get method let user view resources, without changing the content. Generally, GET method is better for the data which does not require any security, word doc, or image.
 ###Important feature : 
 + Easy to bookmark data using GET method
 + The length restriction of GET method is limited
