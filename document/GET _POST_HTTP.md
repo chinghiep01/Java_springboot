@@ -22,12 +22,12 @@ Important feature :
 
 |                            |                   GET                 |             POST                     |
 | ---------------------------|---------------------------------------|--------------------------------------| 
-|    Backbutton/Reload       |            Harmeless                  | Data will be re-submit.Browser will alert the user that the data  are about to be resubmitted      |
-|    Bookmarked              |      Can be bookmarked                |Cannot be bookemarked                       |
-|    Cached                  |            Can be cached              |  Not cached                                |                             |
+|   Backbutton/Reload       |            Harmeless                  | Data will be re-submit.Browser will alert the user that the data  are about to be resubmitted      |
+|   Bookmarked              |      Can be bookmarked                |Cannot be bookemarked                       |
+|   Cached                  |            Can be cached              |  Not cached                                |                             |
 |   Encoding type            |   application/x-www-form-urlencoded   | 	application/x-www-form-urlencoded or multipart/form-data. Use multipart encoding for binary data  |
-|   History                  | Parameters remain in browser history  |  Parameters are not saved in browser        |              
-|                            |                                       |history.                                     |
-|                            |                                       |                                             |
-|                            |                                       |                                             |
-|----------------------------|---------------------------------------|-------------------------------|
+|   History                  | Parameters remain in browser history  |  Parameters are not saved in browser history.|              
+| Restriction on data length |   The length of a URL is limited (maximum URL length is 2048 characters)      |        No restriction                            |
+| Restrictions on data type  | Only ASCII characters allowed         |No restrictions. Binary data is also allowed|
+| Security                   |GET is less secure compared to POST because data sent is part of the URL|POST is a little safer than GET because the parameters are not stored in browser history or in web server logs|
+|Visibility                  |Data visible to everyone in the URL     |Data is not displayed in the URL|
