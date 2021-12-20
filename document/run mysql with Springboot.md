@@ -166,3 +166,79 @@ public class MainController {
   }
 }
 ```
+## Create an Application Class
+
+ Creates a simple class for the application by following ***src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java**. Then use below code:
+
+```
+package com.example.accessingdatamysql;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AccessingDataMysqlApplication {
+
+  public static void main(String[] args) {
+    SpringApplication.run(AccessingDataMysqlApplication.class, args);
+  }
+
+}
+
+```
+
+## Build JAR File using Maven
+
++ Build the JAR file by run this code on the command terminal:
+```
+mvnw clean package 
+```
++ Then run the JAR file as follows:
+
+```
+java -jar target/demo-0.0.1-SNAPSHOT.jar
+```
+
+
+## Test the Application
+
+Now that the application is running, you can test it by using curl. You have two HTTP endpoints that you can test:
+
+ + GET localhost:8080/demo/all: Gets all data. POST localhost:8080/demo/add: Adds one user to the data.
+
++ curl command to add the user: 
+
+```
+ curl localhost:8080/demo/add -d name=First -d email=someemail@someemailprovider.com
+```
+
++ When you success , it will show : 
+
+**Saved**
+
++ The following command shows all the users:
+
+```
+ curl 'localhost:8080/demo/all'
+```
+
++ When you success , it will show : 
+
+**[{"id":1,"name":"First","email":"someemail@someemailprovider.com"}]**
+
+## Make Some Security Changes (optional): 
+
+When you are on a production environment, you may be exposed to SQL injection attacks. A hacker may inject DROP TABLE or any other destructive SQL commands. 
+
++ This command revokes all the privileges from the user associated with the Spring application : 
+
+```
+mysql> revoke all on taxdb.* from 'user'@'%';
+```
+
++ The application must have some privileges, so use the following command to grant the minimum privileges the application needs:
+
+```
+mysql> grant select, insert, delete, update on taxdb.* to 'user'@'%';
+
+```
