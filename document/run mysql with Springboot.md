@@ -168,7 +168,7 @@ public class MainController {
 ```
 ## Create an Application Class
 
- Creates a simple class for the application by following ***src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java**. Then use below code:
+ Creates a simple class for the application by following **src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java**. Then use below code:
 
 ```
 package com.example.accessingdatamysql;
@@ -206,23 +206,23 @@ Now that the application is running, you can test it by using curl. You have two
 
  + GET localhost:8080/demo/all: Gets all data. POST localhost:8080/demo/add: Adds one user to the data.
 
-+ curl command to add the user: 
+curl command to add the user: 
 
 ```
  curl localhost:8080/demo/add -d name=First -d email=someemail@someemailprovider.com
 ```
 
-+ When you success , it will show : 
+When you success , it will show : 
 
 **Saved**
 
-+ The following command shows all the users:
+The following command shows all the users:
 
 ```
  curl 'localhost:8080/demo/all'
 ```
 
-+ When you success , it will show : 
+When you success , it will show : 
 
 **[{"id":1,"name":"First","email":"someemail@someemailprovider.com"}]**
 
