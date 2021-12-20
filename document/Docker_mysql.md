@@ -70,8 +70,8 @@ docker exec -it mysql1 mysql -uroot -p
 
 **Create a User:** 
 
-CREATE USER ‘myUser’@’%’ IDENTIFIED BY ‘myPassword’; 
-GRANT ALL PRIVILEGES ON myDB.* TO 'myUser'@'%';
+CREATE USER ‘user’@’%’ IDENTIFIED BY ‘password’; 
+GRANT ALL PRIVILEGES ON taxdb.* TO 'user'@'%';
 
 
 

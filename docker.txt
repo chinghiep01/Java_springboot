@@ -1,0 +1,6 @@
+docker run --name mysql -e MYSQL_USER=user -e MYSQL_ROOT_PASSWORD=password -e MYSQL_PASSWORD=password -e MYSQL_DATABASE=taxdb -p 3306:3306 -d mysql
+
+GRANT USAGE ON *.* TO 'user'@'%' IDENTIFIED BY PASSWORD 'password';
+GRANT ALL PRIVILEGES ON `user`.* TO 'taxdb'@'%';
+
+grant all privileges on *.* to user@localhost identified by 'password' with grant option;
