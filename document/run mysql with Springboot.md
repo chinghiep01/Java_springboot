@@ -202,29 +202,38 @@ java -jar target/demo-0.0.1-SNAPSHOT.jar
 
 ## Test the Application
 
-Now that the application is running, you can test it by using curl. You have two HTTP endpoints that you can test:
+- Now that the application is running, you can test it by using curl. You have two HTTP endpoints that you can test:
 
  + GET localhost:8080/demo/all: Gets all data. POST localhost:8080/demo/add: Adds one user to the data.
 
-curl command to add the user: 
+
+- curl command to add the user: 
 
 ```
  curl localhost:8080/demo/add -d name=First -d email=someemail@someemailprovider.com
 ```
 
-When you success , it will show : 
+
+- When you success , it will show : 
 
 **Saved**
 
-The following command shows all the users:
+
+
+- The following command shows all the users:
 
 ```
  curl 'localhost:8080/demo/all'
 ```
 
-When you success , it will show : 
+
+
+- When you success , it will show : 
 
 **[{"id":1,"name":"First","email":"someemail@someemailprovider.com"}]**
+
+
+
 
 ## Make Some Security Changes (optional): 
 
