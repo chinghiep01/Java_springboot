@@ -7,7 +7,9 @@ mysql:
   environment:
     - MYSQL_USER=user
     - MYSQL_PASSWORD=password
-    - MYSQL_DATABASE=taxdb
+    - MYSQL_FIRST_DATABASE=taxdb
+    - MYSQL_SECOND_DATABASE=calculatedb
     - MYSQL_ROOT_PASSWORD=password
+    
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"

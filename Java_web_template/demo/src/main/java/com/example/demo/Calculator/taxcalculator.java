@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Calculator;
 
 public class taxcalculator {
   
@@ -34,10 +34,5 @@ public class taxcalculator {
       System.out.println(super_rate);
       return super_rate;
     }
-    public static void main(String[] args){
-      gross_income(12000);
-      income_tax  (12000,2, 3,4);
-      net_income(12000);
-      super_rate(9); 
-  }  
+  
 }
